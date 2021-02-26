@@ -1,0 +1,26 @@
+.subject-panel {
+  display: flex;
+  flex-direction: row;
+  padding: .15rem 0;
+
+  .item {
+    width: 50%;
+    padding: .15rem;
+
+    .item-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: .8rem;
+      border: 1px solid #1773CC;
+      color: #1773CC;
+      font-size: .18rem;
+      border-radius: .05rem;
+
+      &.active {
+        background-color: #1773CC;
+        color: #fff;
+      }
+    }
+  }
+}

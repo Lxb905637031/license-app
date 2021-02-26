@@ -1,0 +1,33 @@
+.answer-show {
+  padding: .15rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+
+  h3 {
+    height: .44rem;
+    line-height: .44rem;
+    font-size: .18rem;
+    font-weight: bold;
+  }
+
+  .img-wrap {
+    padding: .1rem 0;
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    min-height: .3rem;
+    font-size: .16rem;
+    line-height: .3rem;
+
+    &.green {
+      background-color: #dff0d8;
+    }
+
+    &.red {
+      background-color: #f2dede;
+    }
+  }
+}

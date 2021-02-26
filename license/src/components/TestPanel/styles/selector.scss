@@ -1,0 +1,27 @@
+.selector-panel {
+  margin-top: .1rem;
+  .item {
+    padding: .1rem 0;
+    box-sizing: border-box;
+
+    .item-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: .38rem;
+      border: .01px solid #1773CC;
+      border-radius: .05rem;
+      color: #1773CC;
+      font-size: .14rem;
+      padding: .1rem;
+      box-sizing: border-box;
+      line-height: .2rem;
+
+      &.active {
+        background-color: #1773CC;
+        color: #fff;
+      }
+    }
+  }
+}
